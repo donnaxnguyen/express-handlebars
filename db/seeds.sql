@@ -4,7 +4,11 @@
  
 USE burgers_db;
  
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("hamburger", false),
-      ("cheeseburger", false),
-      ("veggie burger", false);
+INSERT INTO burgers (burger_name)
+VALUES ("hamburger");
+
+INSERT INTO burgers (burger_name)
+VALUES ("cheeseburger");
+
+INSERT INTO burgers (burger_name)
+VALUES ("veggie burger");
